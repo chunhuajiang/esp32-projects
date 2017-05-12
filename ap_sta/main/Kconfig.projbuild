@@ -1,0 +1,36 @@
+menu "Demo Configuration"
+
+menu "AP Configuration"
+config APSTA_AP_SSID
+    string "[AP] SSID"
+	default "ap_test"
+	help
+		SSID (network name) to connect to.
+
+config APSTA_AP_PASSWORD
+    string "[AP] Password"
+	default "1234567"
+	help
+		WiFi password (WPA or WPA2) to use.
+
+		Can be left blank if the network has no security set.
+
+endmenu
+
+menu "STA Configuration"
+config APSTA_STA_SSID
+    string "[STA] SSID"
+	default "tidyjiang-ssid"
+	help
+		SSID (network name) to connect to.
+
+config APSTA_STA_PASSWORD
+    string "[STA] Password"
+	default "tidyjiang-pswd"
+	help
+		WiFi password (WPA or WPA2) to use.
+
+		Can be left blank if the network has no security set.
+
+endmenu
+endmenu
