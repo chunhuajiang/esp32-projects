@@ -7,7 +7,7 @@
 [sta](./sta)      | 让 ESP32 作为 STA 连接的你的 WiFi 热点
 [ap_sta](./ap_sta)   | 让 ESP32 同时扮演 AP+STA 的角色 
 [smart_config](smart_config)   | 用微信/APP给你的 ESP32 配置热点密码
-ota            | 给你的 ESP32 进行空中升级
+[ota](ota)          | 给你的 ESP32 进行空中升级
 web_radio     | 用你的 ESP32 做一个音乐电台
 onenet        | ESP32 + MQTT 连接到中移动物联网云平台 OneNET
 
