@@ -1,0 +1,3 @@
+[submodule "onenet"]
+	path = onenet
+	url = https://github.com/tidyjiang8/esp32-onenet.git
