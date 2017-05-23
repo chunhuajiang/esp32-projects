@@ -1,3 +1,6 @@
 [submodule "onenet"]
 	path = onenet
 	url = https://github.com/tidyjiang8/esp32-onenet.git
+[submodule "web_radio"]
+	path = web_radio
+	url = https://github.com/MrBuddyCasino/ESP32_MP3_Decoder.git
